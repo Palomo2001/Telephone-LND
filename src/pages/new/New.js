@@ -1,6 +1,6 @@
 import Header from "../../components/header/Header";
-import NewMobileList from "../../components/mobileList/MobileList";
-import "./Home.css"
+import NewMobileList from "../../components/newmobileList/NewMobileList";
+import "./New.css"
 
 function New(){
     return(

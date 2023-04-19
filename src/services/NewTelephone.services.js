@@ -1,4 +1,4 @@
-const mobile = [
+const Newmobile = [
     {
         price: "1799,9€",
         model: "Samsung Galaxy Z Fold4",
@@ -47,10 +47,10 @@ const mobile = [
     }
 ];
 
-const getTelephone = () => {
-    return mobile;
+const getNewTelephone = () => {
+    return Newmobile;
 }
 
 export default {
-    getTelephone
+    getNewTelephone
 };
