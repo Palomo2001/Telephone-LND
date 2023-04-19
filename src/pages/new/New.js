@@ -1,12 +1,14 @@
 import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer.js";
 import NewMobileList from "../../components/newmobileList/NewMobileList";
-import "./New.css"
+
 
 function New(){
     return(
         <>
         <Header />
         <NewMobileList /> 
+        <Footer />
         </>
     );
 }

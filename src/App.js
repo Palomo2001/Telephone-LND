@@ -8,7 +8,6 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />}/>
       <Route path="/home" element={<Home />}/>
       <Route path="/new" element={<New />}/>
       <Route path="/almostnew" element={<Almostnew />}/>

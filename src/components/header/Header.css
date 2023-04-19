@@ -15,3 +15,8 @@ li a {
     border-bottom: none;
     color: #fff;
 }
+
+li img {
+    max-width: 50px;
+    max-height: 50px;
+}

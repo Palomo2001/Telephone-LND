@@ -15,11 +15,6 @@ const mobile = [
         brand: "Iphone",
         img: "iphone12.jpg"
     }, {
-        price: "24.00€",
-        model: "Redmi 9C",
-        brand: "Xiaomi",
-        img: "redmi9c.jpg"
-    }, {
         price: "285.19€",
         model: "Nova 9",
         brand: "Huawei",
