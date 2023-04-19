@@ -1,0 +1,17 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+
+li{
+    margin: 0 1em;
+}
+
+li a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #fff;
+}

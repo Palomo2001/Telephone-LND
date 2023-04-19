@@ -1,0 +1,180 @@
+@media screen and (min-width: 560px) {
+    .Moviles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2px;
+    }
+    .Samsung {
+        display: block;
+        justify-content: center;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 2.5em;
+    }
+    
+    .OPPO {
+        display: block;
+        justify-content: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+    
+    .Iphone {
+        display: block;
+        justify-content: center;
+        margin-top: 1.4em;
+        margin-bottom: 1em;
+        margin-left: 1.5em;
+    }
+    
+    .Xiaomi {
+        display: block;
+        justify-content: center;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+    
+    .Huawei {
+        display: block;
+        justify-content: center;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+    
+    .Realme {
+        display: block;
+        justify-content: center;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        margin-left: 1em;
+    }
+    
+    .Vivo {
+        display: block;
+        justify-content: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    .Motorola {
+        display: block;
+        justify-content: center;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+        margin-left: 1em;
+    }
+    
+    .Honor {
+        display: block;
+        justify-content: center;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+        margin-left: 1em;
+    }
+    
+    .Xiaomi2 {
+        display: block;
+        justify-content: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 1em;
+    }
+
+    .Samsung p1,
+    .Samsung p2 {
+        display: block;
+    }
+    
+    .Samsung p2 {
+        margin-top: 6px;
+    }
+    
+    .OPPO p1,
+    .OPPO p2 {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .OPPO p2 {
+        margin-top: 10px;
+    }
+    
+    .Iphone p1,
+    .Iphone p2 {
+        display: block;
+    }
+    
+    .Iphone p2 {
+        margin-top: 10px;
+    }
+    
+    .Xiaomi p1,
+    .Xiaomi p2 {
+        display: block;
+    }
+    
+    .Xiaomi p2 {
+        margin-top: 10px;
+    }
+    
+    .Huawei p1,
+    .Huawei p2 {
+        display: block;
+    }
+    
+    .Huawei p2 {
+        margin-top: 10px;
+    }
+
+    .Realme p1,
+    .Realme p2 {
+        display: block;
+    }
+    
+    .Realme p2 {
+        margin-top: 10px;
+    }
+
+    .Vivo p1,
+    .Vivo p2 {
+        display: block;
+    }
+    
+    .Vivo p2 {
+        margin-top: 10px;
+    }
+
+    .Motorola p1,
+    .Motorola p2 {
+        display: block;
+    }
+    
+    .Motorola p2 {
+        margin-top: 10px;
+    }
+
+    .Honor p1,
+    .Honor p2 {
+        display: block;
+    }
+    
+    .Honor p2 {
+        margin-top: 10px;
+    }
+
+    .Xiaomi2 p1,
+    .Xiaomi2 p2 {
+        display: block;
+    }
+    
+    .Xiaomi2 p2 {
+        margin-top: 10px;
+    }
+}
