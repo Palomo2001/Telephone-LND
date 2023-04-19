@@ -3,7 +3,7 @@ import "./Footer.css"
 function Footer(){
     return(
         <ul>
-            <li>Copyright 2023©</li>
+            <li>Copyright 2023© Todos los derechos reservados Política de Privacidad y Cookies</li>
             <li>Contáctanos al 444-444-444 </li>
             <li>SoporteTecnico@PalomoMobile.com</li>
             <li>Para ver el aviso de privacidad, accede a PalomoMobile.com/aviso</li>
