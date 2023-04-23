@@ -6,7 +6,7 @@ function Header(){
             <li><img src="/assets/img/logo.png" alt="logo"/></li>
             <li><a href="/home">Inicio</a></li>
             <li><a href="/new">Nuevo</a></li>
-            <li><a href="/almostnew">Seminuevo</a></li>
+            <li><a href="/allmostnew">Seminuevo</a></li>
         </ul>
     );
 }

@@ -1,13 +1,13 @@
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer.js";
-import AllmostnewList from "../../components/almostnewList/AllmostnewList";
+import AllmostnewList from "../../components/allmostnewList/AllmostnewList";
 
-function Allmostnew(){
-    return(
+function Allmostnew() {
+    return (
         <>
-        <Header />
-        <AllmostnewList />
-        <Footer />
+            <Header />
+            <AllmostnewList />
+            <Footer />
         </>
     );
 }

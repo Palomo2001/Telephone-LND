@@ -3,18 +3,18 @@ import { useState, useEffect } from "react";
 import "./AllmostnewList.css";
 
 function AllmostnewList() {
-    const [Allmostnewmobile, setAllmostnewList] = useState([]);
+    const [AllmostNewmobile, setAllmostnewList] = useState([]);
     const [query, setQuery] = useState("");
 
 
-    const getAllmostnewList = () => {
-        const allMobile = AllmostNewServices.getAllmostnewList();
-        setAllmostnewList(allMobile);
+    const getAllmostNewTelephone = () => {
+        const allAllmostnewMobile = AllmostNewServices.getAllmostNewTelephone();
+        setAllmostnewList(allAllmostnewMobile);
     }
 
-    const showMobile = () => {
+    const showallAllmostnewMobile = () => {
         return (
-            Allmostnewmobile.filter(c =>
+            AllmostNewmobile.filter(c =>
                 c.brand.toLowerCase().includes(query.toLowerCase()) ||
                 c.model.toLowerCase().includes(query.toLowerCase()) ||
                 c.price.toLowerCase().includes(query.toLowerCase()) ||
@@ -46,7 +46,7 @@ function AllmostnewList() {
 
     useEffect(
         () => {
-            getAllmostnewList();
+            getAllmostNewTelephone();
         }, []);
 
     return (
@@ -54,7 +54,7 @@ function AllmostnewList() {
             <input type="search" onChange={handleChange} />
             <div className="main-container">
                 <div className="mobile-container">
-                    {showMobile()}
+                    {showallAllmostnewMobile()}
                 </div>
             </div>
         </>

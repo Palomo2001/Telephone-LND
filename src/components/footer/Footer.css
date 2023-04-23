@@ -21,11 +21,11 @@ li{
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
     }
