@@ -24,8 +24,6 @@ function AllmostnewList() {
                         <div className="mobile-item">
                             <div className="mobile-img">
                                 <img src={`/assets/img/${c.img}`} alt="mobile" />
-                                <img src={`/assets/img/${c.img}`} alt="mobile" />
-                                <img src={`/assets/img/${c.img}`} alt="mobile" />
                             </div>
                             <div className="text-mobile">
                                 <p>{c.brand}</p>
