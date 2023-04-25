@@ -2,17 +2,20 @@ import "./Footer.css"
 
 function Footer(){
     return(
-        <ul>
-            <li>Contáctanos al 444-444-444 </li>
-            <li>SoporteTecnico@PalomoMobile.com</li>
-            <li>Copyright 2023© Todos los derechos reservados</li>
-            <li>Para ver el aviso de privacidad, accede a PalomoMobile.com/aviso</li>
-            <li><img src="/assets/img/twitter.png" alt="twitter"/></li>
-            <li><img src="/assets/img/facebook.webp" alt="facebook"/></li>
-            <li><img src="/assets/img/youtube.png" alt="youtube"/></li>
-            <li><img src="/assets/img/instagram.webp" alt="instagram"/></li>
-
-        </ul>
+        <div id="container">
+            <div className="text">
+            <p>Contáctanos al 444-444-444</p> 
+            <p>SoporteTecnico@PalomoMobile.com</p>
+            <p>Copyright 2023© Todos los derechos reservados</p>
+            <p>Para ver el aviso de privacidad, accede a PalomoMobile.com/aviso</p>
+            </div>
+            <div className="icon">
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+        </div>
     );
 }
 
