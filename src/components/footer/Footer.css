@@ -34,9 +34,16 @@
 @media only screen and (min-width: 600px) {
     .text {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
