@@ -5,7 +5,6 @@
 }
 
 .icon{
-    
     display: flex;
     flex-wrap: wrap;
 }
@@ -15,29 +14,22 @@
     font-size: 64px;
 }
 
-@media only screen and (min-width: 600px) {
-    li {
-        width: 33.33%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    li {
-        width: 25%;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    li {
-        width: 20%;
+@media only screen and (min-width: 400px) {
+    .text{
+        display: flex;
         flex-direction: row;
-    }
-    
-    ul {
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 }
 
-@media only screen and (min-width: 1200px) {
-
+@media only screen and (min-width: 600px) {
+    .text{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
+
+@media only screen and (min-width: 1200px) {}
