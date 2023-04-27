@@ -3,77 +3,69 @@ body {
     color: white;
 }
 
-.main-container{
+.Newmain-container, .Newmobile-container, .Newmobile-item {
+    width: 100vw;
+}
+
+.Newmobile-item{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-.mobile-container {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: space-evenly;
-    flex-grow: 3;
-    flex-wrap: wrap; 
+.Newmobile-img{
+    width: 40vw;
 }
 
-.mobile-img{
-    width: calc(33.33% - 10px); 
-    margin: 5px; 
-    height: 50vw;
-    overflow: hidden;
-    border-radius: 1em;
-    border: 1px solid;
-}
-
-.mobile-img>img{
+.Newmobile-img>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.text-mobile{
+.Newtext-mobile{
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 200px) {
-    .mobile-container{
-        display: flexbox;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .mobile-img{
-        align-items: center;
-    }
-
-    .mobile-img>img{
-        align-items: center;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .mobile-img{
-        width: 25vw;
-        height: 16.7vw;
-    }
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    .Newmobile-container {
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: space-evenly;
+        flex-grow: 3;
+        flex-wrap: wrap; 
+    }
+    
+    .Newmobile-img{
+        width: calc(33.33% - 10px); 
+        margin: 5px; 
+        height: 5vw;
+        overflow: hidden;
+        border-radius: 1em;
+        border: 1px solid;
+    }
+    
+    .Newmobile-img>img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .Newtext-mobile{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .mobile-container{
-        width: 60vw;
-    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

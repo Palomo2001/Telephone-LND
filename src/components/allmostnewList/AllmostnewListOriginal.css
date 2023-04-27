@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #1c2237;
     color: white;
 }
@@ -37,10 +37,11 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-}
+} */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
+
+/* @media only screen and (max-width: 400px) {
     .mobile-container{
         align-items: center;
         display: flex;
@@ -85,4 +86,4 @@ body {
 
 @media only screen and (min-width: 1200px) {
 
-}
+} */

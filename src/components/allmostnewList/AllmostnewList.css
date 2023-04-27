@@ -3,25 +3,31 @@ body {
     color: white;
 }
 
-.main-container, .mobile-container, .mobile-item {
+.Notmain-container, .Notmobile-container, .Notmobile-item {
     width: 100vw;
 }
 
-.mobile-item{
+.Notmobile-item{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.mobile-img{
+.Notmobile-img{
     width: 40vw;
 }
 
-.mobile-img>img{
+.Notmobile-img>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.Nottext-mobile{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -36,23 +42,26 @@ body {
 @media only screen and (min-width: 600px) {}
 
 @media only screen and (min-width: 768px) {
-    .main-container{
+
+    .Notmobile-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
-    
-    .mobile-container {
+
+    .Notmobile-item{
         display: flex;
+        width: 45vw;
         flex-direction: column; 
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-grow: 3;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
     
-    .mobile-img{
-        width: calc(33.33% - 10px); 
+    .Notmobile-img{
+        width: 40vw;
         margin: 5px; 
         height: 50vw;
         overflow: hidden;
@@ -60,19 +69,56 @@ body {
         border: 1px solid;
     }
     
-    .mobile-img>img{
+    .Notmobile-img>img{
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
     
-    .text-mobile{
+    .Nottext-mobile{
         align-items: center;
         display: flex;
         flex-direction: column;
     }
 }
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    
+    .Notmobile-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+    }
+
+    .Notmobile-item{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: space-evenly;
+        flex-grow: 3;
+        flex-wrap: wrap;
+    }
+    
+    .Notmobile-img{
+        overflow: hidden;
+        border-radius: 1em;
+        border: 1px solid;
+    }
+    
+    .Notmobile-img>img{
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+    }
+    
+    .Nottext-mobile{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 @media only screen and (min-width: 1200px) {}
