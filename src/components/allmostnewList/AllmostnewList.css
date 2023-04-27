@@ -84,33 +84,33 @@ body {
 
 @media only screen and (min-width: 992px) {
     
-    .Notmobile-container {
+    .Notmain-container{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        height: auto;
-        width: auto;
+        justify-content: center;
     }
-
-    .Notmobile-item{
+    
+    .Notmobile-container {
         display: flex;
-        flex-direction: column; 
+        flex-direction: row; 
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         flex-grow: 3;
         flex-wrap: wrap;
     }
     
     .Notmobile-img{
+        width: calc(33.33% - 10px); 
+        margin: 5px; 
+        height: 25vw;
         overflow: hidden;
         border-radius: 1em;
         border: 1px solid;
     }
     
     .Notmobile-img>img{
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
     }
     

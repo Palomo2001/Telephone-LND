@@ -3,28 +3,30 @@ body {
     color: white;
 }
 
-.Newmain-container, .Newmobile-container, .Newmobile-item {
+.Newmain-container,
+.Newmobile-container,
+.Newmobile-item {
     width: 100vw;
 }
 
-.Newmobile-item{
+.Newmobile-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.Newmobile-img{
+.Newmobile-img {
     width: 40vw;
 }
 
-.Newmobile-img>img{
+.Newmobile-img>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.Newtext-mobile{
+.Newtext-mobile {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -34,29 +36,37 @@ body {
 @media only screen and (min-width: 768px) {
     .Newmobile-container {
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .Newmobile-item {
+        display: flex;
+        width: 45vw;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         flex-grow: 3;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
     }
-    
-    .Newmobile-img{
-        width: calc(33.33% - 10px); 
-        margin: 5px; 
-        height: 5vw;
+
+    .Newmobile-img {
+        width: 40vw;
+        margin: 5px;
+        height: 50vw;
         overflow: hidden;
         border-radius: 1em;
         border: 1px solid;
     }
-    
-    .Newmobile-img>img{
+
+    .Newmobile-img>img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-    
-    .Newtext-mobile{
+
+    .Newtext-mobile {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -65,10 +75,44 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .Newmobile-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+    }
 
+    .Newmobile-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-grow: 3;
+        flex-wrap: wrap;
+    }
+
+    .Newmobile-img {
+        overflow: hidden;
+        border-radius: 1em;
+        border: 1px solid;
+        width: 50%;
+        height: 50%;
+    }
+
+    .Newmobile-img>img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .Newtext-mobile {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
+@media only screen and (min-width: 1200px) {}
