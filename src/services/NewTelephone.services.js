@@ -39,11 +39,6 @@ const Newmobile = [
         model: "Honor 70",
         brand: "Honor",        
         img: "AppleIphone14pro.jpg"                 
-    }, {
-        price: "419,9€",
-        model: "Xiaomi 12 Lite",
-        brand: "Xiaomi2",
-        img: "redminote10.jpg"
     }
 ];
 
