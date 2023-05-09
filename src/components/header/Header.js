@@ -4,9 +4,9 @@ function Header(){
     return(
         <ul>
             <li><img src="/assets/img/logo.png" alt="logo"/></li>
-            <li><a href="/home">Inicio</a></li>
-            <li><a href="/new">Nuevo</a></li>
-            <li><a href="/allmostnew">Seminuevo</a></li>
+            <li><a href="/home">Moviles</a></li>
+            <li><a href="/computer">Pc</a></li>
+            <li><a href="/Tablet">Tablet</a></li>
         </ul>
     );
 }

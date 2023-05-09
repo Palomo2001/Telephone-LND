@@ -1,8 +1,9 @@
 import {Route,Routes,BrowserRouter } from "react-router-dom"
 import './App.css';
 import Home from "./pages/home/Home";
-import Allmostnew from "./pages/allmostnew/Allmostnew";
-import New from "./pages/new/New";
+import Tablet from "./pages/tablet/Tablet";
+import Computer from "./pages/computer/Computer";
+
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/home" element={<Home />}/>
-      <Route path="/new" element={<New />}/>
-      <Route path="/allmostnew" element={<Allmostnew />}/>
+      <Route path="/computer" element={<Computer />}/>
+      <Route path="/tablet" element={<Tablet />}/>
     </Routes>
   </BrowserRouter>
   );

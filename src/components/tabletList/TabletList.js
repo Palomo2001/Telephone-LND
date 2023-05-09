@@ -1,31 +1,31 @@
-import AllmostNewServices from "../../services/AllmostNew.services";
+import TabletServices from "../../services/Tablet.services";
 import { useState, useEffect } from "react";
-import "./AllmostnewList.css";
+import "./TabletList.css";
 
-function AllmostnewList() {
-    const [AllmostNewmobile, setAllmostnewList] = useState([]);
+function TabletList() {
+    const [Tablet, setTabletList] = useState([]);
     const [query, setQuery] = useState("");
 
 
-    const getAllmostNewTelephone = () => {
-        const allAllmostnewMobile = AllmostNewServices.getAllmostNewTelephone();
-        setAllmostnewList(allAllmostnewMobile);
+    const getTablet = () => {
+        const allTablet = TabletServices.getTablet();
+        setTabletList(allTablet);
     }
 
-    const showallAllmostnewMobile = () => {
+    const showallTablet = () => {
         return (
-            AllmostNewmobile.filter(c =>
+            Tablet.filter(c =>
                 c.brand.toLowerCase().includes(query.toLowerCase()) ||
                 c.model.toLowerCase().includes(query.toLowerCase()) ||
                 c.price.toLowerCase().includes(query.toLowerCase()) ||
                 c.used.toLowerCase().includes(query.toLowerCase()))
                 .map(c => {
                     return (
-                        <div className="mobile-item">
-                            <div className="mobile-img">
-                                <img src={`/assets/img/${c.img}`} alt="mobile" />
+                        <div className="Tablet-item">
+                            <div className="Tablet-img">
+                                <img src={`/assets/img/${c.img}`} alt="Tablet" />
                             </div>
-                            <div className="text-mobile">
+                            <div className="text-Tablet">
                                 <p>{c.brand}</p>
                                 <p>{c.model}</p>
                                 <p>{c.price}</p>
@@ -44,19 +44,19 @@ function AllmostnewList() {
 
     useEffect(
         () => {
-            getAllmostNewTelephone();
+            getTablet();
         }, []);
 
     return (
         <>
             <input type="search" onChange={handleChange} />
             <div className="main-container">
-                <div className="mobile-container">
-                    {showallAllmostnewMobile()}
+                <div className="Tablet-container">
+                    {showallTablet()}
                 </div>
             </div>
         </>
     );
 }
 
-export default AllmostnewList;
+export default TabletList;

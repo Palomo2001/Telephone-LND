@@ -9,6 +9,9 @@ body {
     justify-content: center;
 }
 
+.mobile-item{
+    padding-top: 20px;
+}
 .mobile-container {
     display: flex;
     flex-direction: row; 
@@ -19,7 +22,7 @@ body {
 }
 
 .mobile-img{
-    width: calc(33.33% - 10px); 
+    width: 150px; 
     margin: 5px; 
     height: 50vw;
     overflow: hidden;

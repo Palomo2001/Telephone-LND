@@ -2,7 +2,7 @@ ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: black;
 
     margin-block-start: 0em;
@@ -14,14 +14,15 @@ ul{
 
 li{
     display: flex;
-    flex-direction: row;
-    width: 10px;
+    text-align: center;
+    width: auto;
 }
 
 li a {
     text-decoration: none;
     border-bottom: none;
     color: #fff;
+    width: 4px;
 }
 
 li img {

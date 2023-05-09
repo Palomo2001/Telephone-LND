@@ -9,7 +9,10 @@ body {
     justify-content: center;
 }
 
-.mobile-container {
+.Computer-item{
+    padding-top: 20px;
+}
+.Computer-container {
     display: flex;
     flex-direction: row; 
     align-items: center;
@@ -18,8 +21,8 @@ body {
     flex-wrap: wrap; 
 }
 
-.mobile-img{
-    width: calc(33.33% - 10px); 
+.Computer-img{
+    width: 150px; 
     margin: 5px; 
     height: 50vw;
     overflow: hidden;
@@ -27,13 +30,13 @@ body {
     border: 1px solid;
 }
 
-.mobile-img>img{
+.Computer-img>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.text-mobile{
+.text-Computer{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -41,24 +44,24 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 200px) {
-    .mobile-container{
+    .Computer-container{
         display: flexbox;
         align-items: center;
         flex-direction: column;
     }
 
-    .mobile-img{
+    .Computer-img{
         align-items: center;
     }
 
-    .mobile-img>img{
+    .Computer-img>img{
         align-items: center;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .mobile-img{
+    .Computer-img{
         width: 25vw;
         height: 16.7vw;
     }
@@ -71,7 +74,7 @@ body {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .mobile-container{
+    .Computer-container{
         width: 60vw;
     }
 }

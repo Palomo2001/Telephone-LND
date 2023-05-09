@@ -1,16 +1,16 @@
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer.js";
-import NewMobileList from "../../components/newmobileList/NewMobileList";
+import ComputerList from "../../components/computerList/ComputerList";
 
 
-function New(){
+function Computer(){
     return(
         <>
         <Header />
-        <NewMobileList /> 
+        <ComputerList /> 
         <Footer />
         </>
     );
 }
 
-export default New;
+export default Computer;

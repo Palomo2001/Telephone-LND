@@ -1,15 +1,15 @@
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer.js";
-import AllmostnewList from "../../components/allmostnewList/AllmostnewList";
+import TabletList from "../../components/tabletList/TabletList";
 
-function Allmostnew() {
+function Tablet() {
     return (
         <>
             <Header />
-            <AllmostnewList />
+            <TabletList />
             <Footer />
         </>
     );
 }
 
-export default Allmostnew;
+export default Tablet;

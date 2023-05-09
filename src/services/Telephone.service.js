@@ -39,11 +39,6 @@ const mobile = [
         model: "Redmi Note 10 Pro 8",
         brand: "Xiaomi",
         img: "redminote10.jpg"
-    }, {
-        price: "150.00€",
-        model: "Magic5 Lite",
-        brand: "Huawei",
-        img: "magiclite.jpg"
     }
 ];
 
