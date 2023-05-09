@@ -3,6 +3,7 @@ import './App.css';
 import Home from "./pages/home/Home";
 import Tablet from "./pages/tablet/Tablet";
 import Computer from "./pages/computer/Computer";
+import Extras from "./pages/extras/Extras";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/home" element={<Home />}/>
       <Route path="/computer" element={<Computer />}/>
       <Route path="/tablet" element={<Tablet />}/>
+      <Route path="/extras" element={<Extras />}/>
     </Routes>
   </BrowserRouter>
   );

@@ -14,15 +14,17 @@ ul{
 
 li{
     display: flex;
-    text-align: center;
     width: auto;
 }
 
 li a {
     text-decoration: none;
     border-bottom: none;
+    border-width: 6px;
     color: #fff;
-    width: 4px;
+    width: 2px;
+    padding: 6px;
+    text-align: center;
 }
 
 li img {
