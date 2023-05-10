@@ -9,6 +9,7 @@ function Footer(){
             <p>Copyright 2023© Todos los derechos reservados</p>
             <p>Para ver el aviso de privacidad, accede a PalomoMobile.com/aviso</p>
             <p>Todos los derechos reservados Política de Privacidad y Cookies|Condiciones de Venta</p>
+            <p><a href="/ProductList">Sugerencias para mejorar la página</a></p>
             </div>
             <div className="icon">
             <ion-icon name="logo-twitter"></ion-icon>

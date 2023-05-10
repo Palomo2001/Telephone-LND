@@ -1,64 +1,63 @@
 @media only screen and (min-width: 260px) {
-ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: black;
-    align-items: center;
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: black;
+        align-items: center;
 
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+
+    li {
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+    }
+
+    li a {
+        text-decoration: none;
+        border-bottom: none;
+        border-width: 6px;
+        color: #fff;
+        width: 2px;
+        padding: 6px;
+        text-align: center;
+    }
+
+    li img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+        /* mostrar el icono del menú */
+        cursor: pointer;
+        /* cambiar el cursor al pasar por encima del icono */
+    }
+
+    .menu-items {
+        display: none;
+        /* ocultar los elementos del menú */
+    }
+
+    /* mostrar los elementos del menú al hacer click en el icono */
+    #toggle:checked~.menu-items {
+        display: block;
+    }
 }
 
-li {
-    display: flex;
-    width: 50%;
-    flex-direction: row;
-}
-
-li a {
-    text-decoration: none;
-    border-bottom: none;
-    border-width: 6px;
-    color: #fff;
-    width: 2px;
-    padding: 6px;
-    text-align: center;
-}
-
-li img {
-    max-width: 50px;
-    max-height: 50px;
-}
-
-.menu {
-    display: none;
-}
-
-}
 /* @media only screen and (max-width: 600px) {
-    .btn { 
-    position: relative;         
-    margin-top:2%; 
-    border: 2px solid black;
-    border-radius: 2px; 
-    height: 36px; 
-    width:36px;  
-}
-#lines:before { 
-    border-bottom: 17px double black;
-    border-top: 6px solid black;    
-    content:"";
-    height: 5px; 
-    position: absolute; 
-    right:3px;  
-    top: 4px; 
-    width:30px; 
-}
 } */
 
 @media only screen and (min-width: 600px) {

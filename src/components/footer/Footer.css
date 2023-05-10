@@ -4,6 +4,15 @@
     background-color: black;
 }
 
+.p a {
+    text-decoration: none;
+    border-bottom: none;
+    border-width: 6px;
+    color: #fff;
+    width: 2px;
+    padding: 6px;
+    text-align: center;
+}
 .icon{
     display: flex;
     flex-wrap: wrap;
@@ -14,12 +23,11 @@
     font-size: 64px;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 200px) {
     .text{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
     }
 }
 

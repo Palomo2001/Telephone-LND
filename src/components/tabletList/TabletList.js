@@ -17,8 +17,7 @@ function TabletList() {
             Tablet.filter(c =>
                 c.brand.toLowerCase().includes(query.toLowerCase()) ||
                 c.model.toLowerCase().includes(query.toLowerCase()) ||
-                c.price.toLowerCase().includes(query.toLowerCase()) ||
-                c.used.toLowerCase().includes(query.toLowerCase()))
+                c.price.toLowerCase().includes(query.toLowerCase()))
                 .map(c => {
                     return (
                         <div className="Tablet-item">
@@ -29,7 +28,6 @@ function TabletList() {
                                 <p>{c.brand}</p>
                                 <p>{c.model}</p>
                                 <p>{c.price}</p>
-                                <p>{c.used}</p>
                             </div>
                         </div>
                     );

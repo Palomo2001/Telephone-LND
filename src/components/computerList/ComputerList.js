@@ -23,9 +23,7 @@ function ComputerList() {
                         <div className="Computer-item">
                             <div className="Computer-img">
                                 <img src={`/assets/img/${c.img}`} alt="Computer" />
-                                <img src={`/assets/img/${c.img}`} alt="Computer" />
-                                <img src={`/assets/img/${c.img}`} alt="Computer" />
-                            </div>
+                                </div>
                             <div className="text-Computer">
                                 <p>{c.brand}</p>
                                 <p>{c.model}</p>
