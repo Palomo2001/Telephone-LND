@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { FaRegTrashAlt } from 'react-icons/fa';
+import { FaRegTrashAlt,FaRegEdit } from 'react-icons/fa';
 import ProductService from "../../services/Product.service";
 import "./ProductList.css";
 
@@ -27,21 +27,28 @@ function ProductList() {
       });
   }
 
-  const removeProduct = (key) => {
-    ProductService.removeProduct(key).then((res) => {
+  const removeProducts = (key) => {
+    ProductService.removeProducts(key).then((res) => {
       getAllProducts();
     });
   }
 
-  const addProduct = (e) => {
+  const addProducts = (e) => {
     e.preventDefault();
     const brand = e.target.brand.value;
     const model = e.target.model.value;
-    ProductService.addProduct(brand, model).then((res) => {
+    ProductService.addProducts(brand, model).then((res) => {
       refForm.current.reset();
       setProducts(oldValues => [...oldValues, { key: res.key, brand, model }])
     })
   }
+
+  const updateProducts = (key, updatedProduct) => {
+    ProductService.updateProducts(key, updatedProduct).then((res) => {
+      getAllProducts();
+    });
+  };
+  
 
   useEffect(() => {
     getAllProducts();
@@ -51,7 +58,7 @@ function ProductList() {
     <>
       <div className="Product-list-main-container">
         <div className="Product-form-container">
-          <form id="Product-form" onSubmit={addProduct} ref={refForm}>
+          <form id="Product-form" onSubmit={addProducts} ref={refForm}>
             <input className="rounded-input" type="text" name="brand" placeholder="brand"/>
             <input className="rounded-input" type="text" name="model" placeholder="model"/>
             <input className="rounded-input" type="submit" value="Add Product"/>
@@ -59,13 +66,16 @@ function ProductList() {
         </div>
 
         <div className="Product-list">
-          {Products.map(b =>
-            <div className="Product-item" key={b.key}>
-              <p>{b.brand} {b.model}</p>
-              <FaRegTrashAlt className="delete-Product" onClick={() => removeProduct(b.key)}/>
-            </div>
-          )}
-        </div>
+  {Products.map(b =>
+    <div className="Product-item" key={b.key}>
+      <input type="text" defaultValue={b.brand} onChange={(e) => b.brand = e.target.value} />
+      <input type="text" defaultValue={b.model} onChange={(e) => b.model = e.target.value} />
+      <FaRegEdit className="update-Product" onClick={() => updateProducts(b.key, b)}/>
+      <FaRegTrashAlt className="delete-Product" onClick={() => removeProducts(b.key)}/>
+    </div>
+  )}
+</div>
+
       </div>
     </>
   );

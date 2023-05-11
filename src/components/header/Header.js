@@ -16,7 +16,7 @@ function Header(){
             <li className="menu-option"><a href="/computer">Portatil</a></li>
             <li className="menu-option"><a href="/Tablet">Tablet</a></li>
             <li className="menu-option"><a href="/Extras">Extras</a></li>
-            <li className="menu-option" onClick={toggleCollapsedMenu}><FaBars /></li>
+            <li className="collapsed-menu" onClick={toggleCollapsedMenu}><FaBars /></li>
         </ul>
         {menuVisible ? 
             <div className="collapsed-menu">
