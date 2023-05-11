@@ -35,25 +35,18 @@
         max-height: 50px;
     }
 
-    .menu {
+    .menu-option {
         display: none;
     }
 
-    .icon {
-        display: block;
-        /* mostrar el icono del menú */
-        cursor: pointer;
-        /* cambiar el cursor al pasar por encima del icono */
+    .collapsed-menu ul{
+        display: flex;
+        flex-direction: column;
     }
 
-    .menu-items {
-        display: none;
-        /* ocultar los elementos del menú */
-    }
-
-    /* mostrar los elementos del menú al hacer click en el icono */
-    #toggle:checked~.menu-items {
-        display: block;
+    .collapsed-menu a{
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -65,8 +58,25 @@
         width: 33.33%;
     }
 
-    .menu {
+    li a{
+        text-decoration: none;
+        border-bottom: none;
+        color: #fff;
+        font-size: small;
+        text-align:center;
+        padding: 0.1em;
+    }
+
+    .menu-option {
         display: block;
+    }
+
+    .menu-bars{
+        display: none;
+    }
+
+    .collapsed-menu{
+        display: none;
     }
 }
 
