@@ -4,17 +4,7 @@ const mobile = [
         model: "Galaxy A23",
         brand: "Samsung",
         img: "GalaxyA23.jpg"
-    }, {
-        price: "210.94€",
-        model: "A95",
-        brand: "Blacview",
-        img: "A95.jpg"
-    }, {
-        price: "729.00€",
-        model: "Apple iPhone 12",
-        brand: "Iphone",
-        img: "iphone12.jpg"
-    }, {
+    },{
         price: "285.19€",
         model: "Nova 9",
         brand: "Huawei",
