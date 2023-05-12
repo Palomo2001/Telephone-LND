@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Proximas Ofertas</title>
+    <link>https://ejemplo.com/rss</link>
+    <description>Descripción del canal RSS</description>
+    <language>es-ES</language>
+    <lastBuildDate>Wed, 12 May 2023 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Título del artículo 1</title>
+      <link>https://ejemplo.com/articulo-1</link>
+      <description>Descripción del artículo 1</description>
+      <pubDate>Wed, 12 May 2023 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Título del artículo 2</title>
+      <link>https://ejemplo.com/articulo-2</link>
+      <description>Descripción del artículo 2</description>
+      <pubDate>Wed, 12 May 2023 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
