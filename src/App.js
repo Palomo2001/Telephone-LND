@@ -4,7 +4,8 @@ import Home from "./pages/home/Home";
 import Tablet from "./pages/tablet/Tablet";
 import Computer from "./pages/computer/Computer";
 import Extras from "./pages/extras/Extras";
-import ProductList from "./pages/productList/ProductList";
+import Product from "./pages/product/Product";
+
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <Route path="/computer" element={<Computer />}/>
       <Route path="/tablet" element={<Tablet />}/>
       <Route path="/extras" element={<Extras />}/>
-      <Route path="/productList" element={<ProductList />}/>
+      <Route path="/productList" element={<Product />}/>
     </Routes>
   </BrowserRouter>
   );
