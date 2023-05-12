@@ -1,4 +1,5 @@
 import "./Footer.css"
+import { FaFacebook,FaInstagram,FaTwitter,FaYoutube } from 'react-icons/fa';
 
 function Footer(){
     return(
@@ -12,10 +13,10 @@ function Footer(){
             <p><a href="/ProductList">Sugerencias para mejorar la página</a></p>
             </div>
             <div className="icon">
-            <ion-icon name="logo-twitter"></ion-icon>
-            <ion-icon name="logo-facebook"></ion-icon>
-            <ion-icon name="logo-youtube"></ion-icon>
-            <ion-icon name="logo-instagram"></ion-icon>
+            <h1><FaFacebook className="Facebook" /></h1>
+            <h1><FaInstagram className="Instagram" /></h1>
+            <h1><FaYoutube className="Youtube" /></h1>
+            <h1><FaTwitter className="Twitter" /></h1>
             </div>
         </div>
     );

@@ -4,6 +4,12 @@
     background-color: black;
 }
 
+/* .text{
+    display: flex;
+    flex-direction: column;
+
+} */
+
 .p a {
     text-decoration: none;
     border-bottom: none;
@@ -18,7 +24,7 @@
     flex-wrap: wrap;
 }
 
-.icon ion-icon {
+.icon h1 {
     padding-left: 10vw;
     font-size: 30px;
 }
@@ -26,7 +32,7 @@
 @media only screen and (min-width: 200px) {
     .text{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 }
@@ -43,10 +49,24 @@
 @media only screen and (min-width: 600px) {
     .text {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
+        margin-right: 5px;
         justify-content: center;
         align-items: center;
+    }
+
+    .text p{
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .text p a{
+        display: flex;
+        /* margin-left: 0.5px;
+        margin-right: 0.5px; */
+        text-decoration: none;
+        text-decoration-color: #fff;
     }
 
     .icon {
@@ -63,6 +83,20 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .text p{
+        display: flex;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .text p a{
+        display: flex;
+        margin-left: 0.5px;
+        margin-right: 0.5px;
+        text-decoration: none;
+        text-decoration-color: #fff;
     }
 
     .icon {
