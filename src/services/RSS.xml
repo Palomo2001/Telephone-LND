@@ -2,18 +2,18 @@
 <rss version="2.0">
 
 <channel>
-  <title>W3Schools Home Page</title>
+  <title>Ofertas Especiales</title>
   <link>https://www.w3schools.com</link>
-  <description>Free web building tutorials</description>
+  <description>¡No te pierdas nuestra oferta especial de móviles! Obtén los últimos modelos a precios increíbles y con grandes descuentos. Conéctate con lo último en tecnología móvil y disfruta de la mejor experiencia de usuario. ¡Haz tu compra ahora y no te arrepentirás!</description>
   <item>
-    <title>RSS Tutorial</title>
+    <title>Japón inventa uevo móvil</title>
     <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
+    <description>Japón es reconocido por ser líder en tecnología, y en la historia ha sido pionero en la invención de varios dispositivos electrónicos. Uno de los más importantes es el teléfono móvil, que fue desarrollado por primera vez por la empresa japonesa NTT en 1979. Desde entonces, Japón ha sido una de las naciones líderes en el desarrollo de tecnología móvil avanzada, incluyendo smartphones de alta gama.</description>
   </item>
   <item>
-    <title>XML Tutorial</title>
+    <title>Iphone saca su nuevo Iphone 9000 PRO MAX FULL HD 4K</title>
     <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
+    <description>Apple ha anunciado el lanzamiento de su último teléfono inteligente, el iPhone 9000 Pro Max, que cuenta con una pantalla Full HD 4K de alta calidad. Este dispositivo de gama alta ofrece un rendimiento mejorado y una cámara de alta resolución, lo que lo convierte en una opción atractiva para los entusiastas de la tecnología. Los prepedidos ya están disponibles en el sitio web de Apple.</description>
   </item>
 </channel>
 
