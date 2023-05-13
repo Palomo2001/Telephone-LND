@@ -5,8 +5,7 @@ import Tablet from "./pages/tablet/Tablet";
 import Computer from "./pages/computer/Computer";
 import Extras from "./pages/extras/Extras";
 import Product from "./pages/product/Product";
-
-
+import RSS from "./pages/rss/RSS";
 
 
 
@@ -21,6 +20,7 @@ function App() {
       <Route path="/tablet" element={<Tablet />}/>
       <Route path="/extras" element={<Extras />}/>
       <Route path="/productList" element={<Product />}/>
+      <Route path="/rss" element={<RSS />}/>
     </Routes>
   </BrowserRouter>
   );
