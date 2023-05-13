@@ -4,7 +4,7 @@ import { FaRegEdit } from 'react-icons/fa';
 
 export default function RSSCompnets() {
 
-  <FaRegEdit className="Click-RSS" onClick={() => RSSCompnets()}/>
+  <a href="/services/RSS.xml" type="application/rss+xml">Subscribe to RSS Feed</a>
   useEffect(() => {
     /* later within the component */
     window.open(rss, '_self');
