@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import rss from "../../services/RSS.xml";
-import { FaRegEdit } from 'react-icons/fa';
+
 
 export default function RSSCompnets() {
 

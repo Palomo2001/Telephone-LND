@@ -1,6 +1,7 @@
 import "./Header.css"
 import { FaBars } from 'react-icons/fa';
 import { useState } from "react";
+import RSS from "../../services/RSS.xml";
 
 function Header(){
     const [menuVisible,setMenuVisible]=useState(false);
@@ -16,6 +17,7 @@ function Header(){
             <li className="menu-option"><a href="/computer">Portatil</a></li>
             <li className="menu-option"><a href="/Tablet">Tablet</a></li>
             <li className="menu-option"><a href="/Extras">Extras</a></li>
+            <li><ion-icon name="logo-rss"><a href={RSS} target="_blank">RSS</a></ion-icon></li>
             <li className="collapsed-menu" onClick={toggleCollapsedMenu}><FaBars /></li>
         </ul>
         {menuVisible ? 
