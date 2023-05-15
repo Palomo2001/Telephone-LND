@@ -20,7 +20,6 @@ function App() {
       <Route path="/tablet" element={<Tablet />}/>
       <Route path="/extras" element={<Extras />}/>
       <Route path="/productList" element={<Product />}/>
-
     </Routes>
   </BrowserRouter>
   );
