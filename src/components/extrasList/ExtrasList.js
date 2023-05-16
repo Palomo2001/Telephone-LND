@@ -23,8 +23,6 @@ function ExtrasList() {
             <div className="Extras-item">
               <div className="Extras-img">
                 <img src={`/assets/img/${c.img}`} alt="Extras" />
-                <img src={`/assets/img/${c.img}`} alt="Extras" />
-                <img src={`/assets/img/${c.img}`} alt="Extras" />
               </div>
               <div className="text-Extras">
               <p>{c.brand}</p>

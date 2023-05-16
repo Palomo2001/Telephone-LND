@@ -5,6 +5,7 @@ import Tablet from "./pages/tablet/Tablet";
 import Computer from "./pages/computer/Computer";
 import Extras from "./pages/extras/Extras";
 import Product from "./pages/product/Product";
+import Noticia from "./components/noticiamobile/NoticiaMobile";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/tablet" element={<Tablet />}/>
       <Route path="/extras" element={<Extras />}/>
       <Route path="/productList" element={<Product />}/>
+      <Route path="/One" element={<Noticia/>}/>
     </Routes>
   </BrowserRouter>
   );
