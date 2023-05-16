@@ -1,4 +1,5 @@
 import React from 'react';
+import "./NoticiaMobile.css";
 
 function Noticia() {
   const titulo = "Japón inventa nuevo móvil";

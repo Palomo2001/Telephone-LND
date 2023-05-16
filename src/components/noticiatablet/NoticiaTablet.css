@@ -1,0 +1,66 @@
+@media only screen and (min-width: 260px) {
+
+    h1 {
+      color: white;
+      font-size: 100px;
+      width: auto;
+    }
+  
+    p {
+      color: white;
+      font-size: 100px;
+      font-weight: 100;
+      width: auto;
+    }
+  
+    .TheFour {
+      width: 50%;
+    }
+  
+    img {
+      width: 50%;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 460px) {
+  
+    h1 {
+      color: white;
+      font-size: 24px;
+    }
+  
+    p {
+      color: white;
+      font-size: 16px;
+    }
+  
+    .TheFour {
+      width: 50%;
+    }
+  
+    img {
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+  
+    h1 {
+      color: white;
+      font-size: 24px;
+    }
+  
+    p {
+      color: white;
+      font-size: 16px;
+    }
+  
+    .TheFour {
+      width: 50%;
+    }
+  
+    img {
+      width: 50%;
+    }
+  }
